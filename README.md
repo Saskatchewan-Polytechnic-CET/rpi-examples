@@ -28,6 +28,17 @@ Blink LED example using GPIO with Python.
 Blink LED example that is installed as a system service (for reboots).
 Uses a refactored Makefile to make it easier to modify.
 
+```bash
+make           # Builds executable
+make install   # Installs service
+reboot         # Restart system and blink should start on sysinit
+make uninstall # Removes service
+```
+
+### 7_loop
+
+Chasing LED example with Makefile and system service.
+
 ## Resources
 
 1. Read about WiringPi
