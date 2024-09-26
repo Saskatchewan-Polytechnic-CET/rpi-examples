@@ -5,7 +5,7 @@
 ### 1_hello_c
 
 Basic compilation of C files in linux. 
-Comparison between debug symbols and no debug systems.
+Comparison between debug symbols and no debug symbols.
 
 ### 2_hello_cpp
 
