@@ -88,9 +88,9 @@ make uninstall             # Removes service
 
 2. Install visual studio code
 
-```bash
-sudo apt install code
-```
+   ```bash
+   sudo apt install code
+   ```
 
 3. Read about the GNU debugger (gdb)
 
