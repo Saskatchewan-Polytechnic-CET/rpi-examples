@@ -96,11 +96,11 @@ make uninstall             # Removes service
 
    https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide.htm
 
-4. Wiring Pi
+4. Install Wiring Pi
 
    ```bash
    git clone https://github.com/WiringPi/WiringPi
    cd WiringPi
    ./build
-   cd
+   pip install wiringpi
    ```
