@@ -1,0 +1,28 @@
+Debug on the command line with GDB.
+
+gdb ./main_nodebug
+
+Use a breakpoint via:
+
+1. b main
+
+Without the -g, the debugger doesn't have all the symbols to make it easy to read.
+You also can't break on line numbers.
+
+Now try with debug symbols.
+
+gdb ./main_debug
+
+Use a breakpoint via:
+
+1. b main
+2. b 8 
+
+Notice how the result is easier to read and you can break on line numbers. 
+
+Useful gdb commands:
+
+    b {function name / line number}: Break point
+    c: Continue
+    n: Next
+    p {variable}: Print the value of a variable  
