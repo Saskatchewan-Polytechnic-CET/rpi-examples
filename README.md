@@ -81,7 +81,7 @@ make uninstall             # Removes service
 
 1. Read about WiringPi
 
-  https://roboticsbackend.com/introduction-to-wiringpi-for-raspberry-pi
+   https://roboticsbackend.com/introduction-to-wiringpi-for-raspberry-pi
 
 * PIN overview for GPIO
 * Multiplexing guide
