@@ -1,0 +1,14 @@
+[Unit]
+Description=LED Loop service
+DefaultDependencies=no
+
+[Service]
+ExecStart=/usr/local/bin/main_loop
+WorkingDirectory=/usr/local/bin
+StandardOutput=inherit
+StandardError=inherit
+Restart=no
+User=pi
+
+[Install]
+WantedBy=sysinit.target

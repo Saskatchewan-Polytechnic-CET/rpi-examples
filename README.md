@@ -39,11 +39,19 @@ https://roboticsbackend.com/introduction-to-wiringpi-for-raspberry-pi
 
 2. Install visual studio code
 
+```bash
 sudo apt install code
+```
 
 3. Read about the GNU debugger (gdb)
 
 https://www.tutorialspoint.com/gnu_debugger/gdb_quick_guide.htm
 
+4. Wiring Pi
 
-
+```bash
+git clone https://github.com/WiringPi/WiringPi
+cd WiringPi
+./build
+cd
+```
